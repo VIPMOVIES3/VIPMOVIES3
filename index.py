@@ -8,7 +8,7 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryH
 from movies_scraper import search_movies, get_movie
 
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = "6271075493:AAHJnVlcpykJJm6fxWqn0Q6jA5nBPIOwjg8"
 URL = "https://vipmovies-3.vercel.app"
 bot = Bot(TOKEN)
 
